@@ -9,21 +9,29 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Urbanist:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Nadmorski Chillout</title>
   </head>
   <body>
     <header>
       <div>
-        <h1>Nadmorski Chollout</h1>
-        <p>...to Twoje miejsce na reset...</p>
-        <p>
-          Rezerwacje <br />
-          +48 586 5461 586
-        </p>
+        <h1>Nadmorski Chillout <span> ...Twoje miejsce na reset...</span></h1>
       </div>
     </header>
-    <div>
+    <div class="fixed-number">
       <p>
+        Rezerwacje <br />
+        <span>+48 586 5461 586</span>
+      </p>
+    </div>
+    <div>
+      <p class="opis">
         Nadmorski Chillout to miejsce stworzone dla takich ludzi, jak Ty.
         Nieważne, czy pędzisz przed siebie każdego dnia, czy żyjesz pomału w
         zgodzie ze sobą - każdemu przyda się relaks i zapomnienie o
@@ -34,17 +42,19 @@
       </p>
     </div>
     <section>
-      <img src="/images/umbrella.png" alt="parasolka" /><img
+      <img class="icon" src="/images/umbrella.png" alt="parasolka" /><img
+        class="icon"
         src="/images/paw.png"
         alt="łapa"
-      /><img src="/images/18plus.png" alt="tylko dorośli" /><img
+      /><img class="icon" src="/images/18plus.png" alt="tylko dorośli" /><img
+        class="icon"
         src="/images/mute.png"
         alt=""
       />
-      <p>blisko plaży</p>
-      <p>zwierzaki mile widziane</p>
-      <p>tylko dorośli</p>
-      <p>strefa ciszy</p>
+      <p class="opis-icon">blisko plaży</p>
+      <p class="opis-icon">zwierzaki mile widziane</p>
+      <p class="opis-icon">tylko dorośli</p>
+      <p class="opis-icon">strefa ciszy</p>
     </section>
 
     <aside>
@@ -56,7 +66,7 @@
       </p>
     </aside>
     <div class="second-image">
-      <h2>Tylko Ty, morze i chill...</h2>
+      <h2 class="second-image-opis">Tylko Ty, morze i chill...</h2>
     </div>
     <div class="adress">
       <h3>Zapraszamy:</h3>
@@ -75,14 +85,17 @@
     <div class="rooms">
       <h3>Przygotowaliśmy dla Was:</h3>
       <ul>
-        <il>4 komfortowo urządzone pokoje</il>
-        <il>piaszczysty chill z leżakami i parasolami</il>
-        <il>strefę topless dla kochających się opalać</il>
-        <il>wypożyczalnię rowerów i sprzętu plażowego</il>
+        <li>4 komfortowo urządzone pokoje</li>
+        <li>piaszczysty chill z leżakami i parasolami</li>
+        <li>strefę topless dla kochających się opalać</li>
+        <li>wypożyczalnię rowerów i sprzętu plażowego</li>
+        <li></li>
+          opiekę dla pupila, jeśli będziecie chcieli wyjść gdzieś bez niego
+        </li>
       </ul>
     </div>
     <div>
-      <p>
+      <p class="adult">
         Nadmorski Chillout to miejsce dla osób powyżej 18 roku życia. Chcemy
         zagwarantować naszym Gościom pełen spokój i błogą ciszę, której z
         pewnością potrzebują. Dzieci i młodzież zapraszamy za "kilka" lat
@@ -90,7 +103,7 @@
       </p>
     </div>
     <div class="third-image">
-      <h2>Czekamy na Ciebie!</h2>
+      <h2 class="third-image-opis">Czekamy na Ciebie!</h2>
     </div>
     <footer>
       <div>
