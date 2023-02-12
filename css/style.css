@@ -5,7 +5,7 @@
 }
 
 header {
-  background-image: url(/images/sea1.jpg);
+  background-image: url(../images/sea1.jpg);
   background-repeat: no-repeat;
   background-position: center -300px;
   background-size: cover;
@@ -29,10 +29,191 @@ header h1 span {
   font-family: "Comfortaa", cursive;
   font-size: 1.5rem;
 }
+
+.wrapersection {
+  width: 80vw;
+  margin: 10px auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.sekcjaopis {
+  float: left;
+  width: 70%;
+}
+.opis {
+  padding: 0 20px;
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 130%;
+  color: #777;
+}
+.udogodnienia {
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0 20px;
+  color: #777;
+}
+.umbrella {
+  background-image: url(../images/umbrella.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  opacity: 70%;
+}
+.paw {
+  background-image: url(../images/paw.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  opacity: 70%;
+}
+.adults {
+  background-image: url(../images/18plus.png);
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  opacity: 70%;
+}
+.silence {
+  background-image: url(../images/mute.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  opacity: 70%;
+}
+aside {
+  float: right;
+  width: 28%;
+}
+aside img {
+  display: block;
+  width: 80%;
+  border: 3px solid #40564f70;
+  border-radius: 10%;
+  margin: auto;
+}
+aside p {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 130%;
+  color: #777;
+}
+.second-image {
+  background-image: url(../images/sea2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  position: relative;
+  color: white;
+}
+.second-image-opis {
+  position: absolute;
+  bottom: 7vh;
+  right: 0vh;
+  left: 50vw;
+  padding: 5px;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 3rem;
+  background-color: #737e8b70;
+}
+h3 {
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+}
+.adress {
+  float: left;
+  width: 30%;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 150%;
+  color: #777;
+}
+.rooms {
+  float: right;
+  width: 50%;
+  font-size: 2rem;
+  line-height: 130%;
+  color: #777;
+  margin-left: 10px;
+  list-style-image: url(../images/list.png);
+  list-style-position: outside;
+}
+.adult {
+  width: 80vw;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #b98003;
+  border-top: 2px dotted #faac0298;
+  border-bottom: 2px dotted #faac0298;
+}
+.third-image-opis {
+  position: absolute;
+  bottom: 7vh;
+  left: 0vh;
+  right: 50vw;
+  padding: 5px;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 3rem;
+  background-color: #a8967370;
+}
+.third-image {
+  background-image: url(../images/sea3.jpg);
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  position: relative;
+  color: white;
+}
 .fixed-number {
   position: fixed;
   right: 10vw;
   top: 10vh;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 3px solid #40564f70;
+  transition: 0.5s;
+}
+.fixed-number span {
+  font-weight: bold;
+}
+.fixed-number:hover {
+  right: 9.8vw;
+  top: 9.8vh;
+  padding: 15px 25px;
+  border: 5px solid #faac0298;
+}
+
+footer {
+  text-align: center;
 }
